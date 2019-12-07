@@ -29,7 +29,7 @@ The hardware is based on this project: [Arduino-CAN-BUS-OBD-Gas-Gauge][arduino_c
 |Total Unique Parts    |    20|
 
 |    Ref    |    Quantity    |    Value    |Footprint    |
-|-|-|-|-|-|
+|-|-|-|-|
 |    C1 C4     |    2    |    .1uF    |PSAVanCanBridge_v10:CAP-PTH-SMALL-KIT    |
 |    C2 C3     |    2    |    22pf    |PSAVanCanBridge_v10:CAP-PTH-SMALL-KIT    |
 |    C11 C12     |    2    |    22pf    |Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |
