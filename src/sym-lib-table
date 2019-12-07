@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name eagle-import)(type Legacy)(uri ${KIPRJMOD}/lib/eagle-import.lib)(options "")(descr ""))
+  (lib (name MTC-30521)(type Legacy)(uri ${KIPRJMOD}lib/MTC-30521.lib)(options "")(descr ""))
+  (lib (name TSS463B)(type Legacy)(uri ${KIPRJMOD}lib/TSS463B.lib)(options "")(descr ""))
+)
