@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name TSS463)(type Legacy)(uri ${KIPRJMOD}/lib/TSS463C.lib)(options "")(descr ""))
+  (lib (name ESP32_shield)(type Legacy)(uri ${KIPRJMOD}/lib/ESP32_shield.lib)(options "")(descr ""))
+  (lib (name Level_shifter_shield)(type Legacy)(uri ${KIPRJMOD}/lib/Level_shifter_shield.lib)(options "")(descr ""))
+  (lib (name MCP2551_shield)(type Legacy)(uri ${KIPRJMOD}/lib/MCP2551_shield.lib)(options "")(descr ""))
+)
