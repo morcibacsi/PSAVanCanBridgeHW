@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Bill of materials - PSA VAN-CAN Bridge v1.1</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>        
+        <style type="text/css">
+            td
+            {
+                padding: 0px !important;
+            }
+            th
+            {
+                text-align: center;
+                background: lightgrey;
+                padding: 0px !important;
+            }
+            thead>tr>th
+            {
+                text-align: left;
+            }
+            .group_C:after{
+                content:" - Capacitors";
+            }
+            .group_D:after{
+                content:" - Diodes";
+            }
+            .group_F:after{
+                content:" - Fuse";
+            }
+            .group_L:after{
+                content:" - Inductors";
+            }
+            .group_P:after{
+                content:" - Connectors";
+            }
+            .group_CN:after{
+                content:" - Connectors";
+            }
+            .group_Q:after{
+                content:" - Transistors";
+            }
+            .group_R:after{
+                content:" - Resistors";
+            }
+            .group_U:after{
+                content:" - Semiconductors";
+            }
+            .group_IC:after{
+                content:" - Integrated Circuit";
+            }
+            .group_V:after{
+                content:" - Varistors";
+            }
+            .group_X:after{
+                content:" - Crystals";
+            }           
+        </style>
+    </head>
+    <body onload="loadData()">
+        <div class="container-fluid">
+            <div class="jumbotron">
+                <p>
+                    <a class="btn btn-primary" data-toggle="collapse" href="#properties" role="button" aria-expanded="false" aria-controls="properties">Toggle project properties</a>
+                    <div class="collapse multi-collapse" id="properties">
+                        <div class="card card-body">
+                
+                            <table class="table table-hover">
+                                <tbody>
+                                    <tr>
+                                        <td>Title</td>
+                                        <td>PSA VAN-CAN Bridge</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Revision</td>
+                                        <td>v1.1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Date</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Generated</td>
+                                        <td>2019. 08. 27. 23:30:21</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Company</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comment 1</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comment 2</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comment 3</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comment 4</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total Parts</td>
+                                        <td>22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Total Unique Parts</td>
+                                        <td>16</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </p>
+            </div>
+            <script>
+            var data = {
+                "bill_of_materials": [
+
+                    {
+                        "group_tag": "group_BZ",
+                        "group_title": "BZ",
+                        "rows": [
+                            
+                            {
+                                "ref": "BZ1 ",
+                                "quantity": 1,
+                                "value": "Buzzer",
+                                "footprint": "Buzzer_Beeper:MagneticBuzzer_Kingstate_KCG0601",
+                                "fields":[
+                                
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "group_tag": "group_C",
+                        "group_title": "C",
+                        "rows": [
+                            
+                            {
+                                "ref": "C1 ",
+                                "quantity": 1,
+                                "value": "0.33 uF",
+                                "footprint": "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "C2 ",
+                                "quantity": 1,
+                                "value": "0.1 uF",
+                                "footprint": "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm",
+                                "fields":[
+                                
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "group_tag": "group_J",
+                        "group_title": "J",
+                        "rows": [
+                            
+                            {
+                                "ref": "J1 J7 ",
+                                "quantity": 2,
+                                "value": "Row1",
+                                "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "J2 J8 ",
+                                "quantity": 2,
+                                "value": "Row2",
+                                "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "J10 J5 ",
+                                "quantity": 2,
+                                "value": "Conn_01x04_Female",
+                                "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "J3 ",
+                                "quantity": 1,
+                                "value": "Conn_01x06_Male",
+                                "footprint": "Connector_JST:JST_XH_S06B-XH-A_1x06_P2.50mm_Horizontal",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "J4 ",
+                                "quantity": 1,
+                                "value": "Conn_01x06_Male",
+                                "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+                                "fields":[
+                                
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "group_tag": "group_Q",
+                        "group_title": "Q",
+                        "rows": [
+                            
+                            {
+                                "ref": "Q1 ",
+                                "quantity": 1,
+                                "value": "PN2222A",
+                                "footprint": "Package_TO_SOT_THT:TO-92_Inline",
+                                "fields":[
+                                
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "group_tag": "group_R",
+                        "group_title": "R",
+                        "rows": [
+                            
+                            {
+                                "ref": "R1 R2 ",
+                                "quantity": 2,
+                                "value": "120",
+                                "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "R3 R4 ",
+                                "quantity": 2,
+                                "value": "10K",
+                                "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "R5 ",
+                                "quantity": 1,
+                                "value": "2.2K (470/220 for IR)",
+                                "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "R6 ",
+                                "quantity": 1,
+                                "value": "2.2K",
+                                "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "R7 ",
+                                "quantity": 1,
+                                "value": "4.7K",
+                                "footprint": "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder",
+                                "fields":[
+                                
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "group_tag": "group_U",
+                        "group_title": "U",
+                        "rows": [
+                            
+                            {
+                                "ref": "U1 U2 ",
+                                "quantity": 2,
+                                "value": "SN65HVD230",
+                                "footprint": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+                                "fields":[
+                                
+                                ]
+                            },
+                            {
+                                "ref": "U3 ",
+                                "quantity": 1,
+                                "value": "LM78M05_TO220",
+                                "footprint": "Package_TO_SOT_SMD:TO-252-2",
+                                "fields":[
+                                
+                                ]
+                            },
+                        ]
+                    },
+]
+                }
+            ;
+            function loadData() {
+                var template = $('#template').html();
+                Mustache.parse(template);   // optional, speeds up future uses
+                var rendered = Mustache.render(template, data);
+                $('#target').html(rendered);
+            }
+
+            </script>
+            <script id="template" type="x-tmpl-mustache">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Ref</th>
+                            <th>Quantity</th>
+                            <th>Value</th>
+                            <th>Footprint</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    {{#bill_of_materials}}
+                    <tbody id="{{group_tag}}">
+                        <tr class="grouplabel"><th colspan="5" class="{{group_tag}}">{{group_title}}</th></tr>
+                        {{#rows}}
+                        <tr>
+                            <td><input type="checkbox"/></td>
+                            <td>{{ref}}</td>
+                            <td>{{quantity}}</td>
+                            <td>{{value}}</td>
+                            <td>{{footprint}}</td>
+                            {{#fields}}
+                            <td>
+                                <span class="label label-info">{{field_value}}</span>
+                            </td>
+                            {{/fields}}
+                        </tr>
+                        {{/rows}}
+                    </tbody>
+                    {{/bill_of_materials}}
+                </table>
+            </script>
+            <div id="target">
+            </div>
+        </div>
+    </body>
+</html>
