@@ -21,7 +21,9 @@ I have included a buzzer and a DS18B20 thermometer on the board but they weren't
 
 ![kicad_back.png](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.4/images/kicad_back.png)
 
-![photo.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.4/images/photo.jpg)
+![photo_1.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.4/images/photo_1.jpg)
+
+![photo_2.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.4/images/photo_2.jpg)
 
 ### BOM
 
@@ -35,6 +37,7 @@ I have included a buzzer and a DS18B20 thermometer on the board but they weren't
 |    C3     |    1    |    0.33uF    |Capacitor_THT:CP_Radial_D4.0mm_P2.00mm    |
 |    C4     |    1    |    0.1uF    |Capacitor_THT:CP_Radial_D4.0mm_P2.00mm    |
 |    Y1     |    1    |    8MHz    |Crystal:Crystal_HC49-4H_Vertical    |
+|    U1     |    1    |    TSS463C    |PSAVanCanBridge_v14:SO16L    |
 |    U2 U3     |    2    |    MCP2551-I-SN    |Package_SO:SOIC-8_3.9x4.9mm_P1.27mm    |
 |    U6     |    1    |    LM7805_TO220    |Package_TO_SOT_SMD:TO-252-2    |
 |    U7     |    1    |    LevelShifter4Shield    |PSAVanCanBridge_v14:LevelShifter4_shield    |
