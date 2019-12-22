@@ -18,7 +18,9 @@ The hardware is based on this project: [Arduino-CAN-BUS-OBD-Gas-Gauge][arduino_c
 
 ![kicad_back.png](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.0/images/kicad_back.png)
 
-![photo.png](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.0/images/photo.jpg)
+![photo_1.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.0/images/photo_1.jpg)
+
+![photo_2.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.0/images/photo_2.jpg)
 
 ### BOM
 
