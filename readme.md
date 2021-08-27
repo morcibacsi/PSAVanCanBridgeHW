@@ -64,7 +64,8 @@ I have included a buzzer and a DS18B20 thermometer on the board but they weren't
 |    J3     |    1    |    Conn_01x04_Male    |Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical    |
 |    J4 J5     |    2    |    Conn_01x02_Male    |Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical    |
 |    Q1     |    1    |    PN2222A    |Package_TO_SOT_THT:TO-92_Inline    |
-|    R6 R5 R11     |    3    |    4.7K    |Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |
+|    R6 R5 |    2    |    10K    |Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |
+|    R11     |    1    |    4.7K    |Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |
 |    R3 R4     |    2    |    120    |Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |
 |    R2 R1     |    2    |    2.2K    |Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |
 |    R8 R10 R7 R9     |    4    |    100    |Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder    |
