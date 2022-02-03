@@ -15,6 +15,10 @@ To have an easier build I used a pre-built level shifter. I know it is not the b
 
 I have included a buzzer and a DS18B20 thermometer on the board but they weren't ever tested if they work. I also included some spare connection points for later use.
 
+If you are planning to build the board, go with the minimal setup. It is quite well tested, and is proven to work for years. The full board has never been tested. 
+
+💡 **Make sure you don't populate R3 and R4 resistors as installing those cause errors in the car and the board won't work!**
+
 ### PCB
 
 ![kicad_front.png](https://github.com/morcibacsi/PSAVanCanBridgeHW/raw/v1.4/images/kicad_front.png)
