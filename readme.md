@@ -15,9 +15,10 @@ You might ask that where are the missing versions like v1.2. and v1.3 Well... th
 - [Rev 1.0][version_10] (Actually this revision is not supported by the software, this is uploaded for historical reasons)
 - [Rev 1.1][version_11]
 - [Rev 1.4][version_14]
-
+- [Rev 1.5][version_15]
 
 [version_10]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.0
 [version_11]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.1
 [version_14]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.4
+[version_15]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.5
 [psavancanbridge]: https://github.com/morcibacsi/PSAVanCanBridge
