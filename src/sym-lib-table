@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TSS463")(type "Legacy")(uri "${KIPRJMOD}/lib/TSS463C.lib")(options "")(descr ""))
+  (lib (name "ESP32_shield")(type "Legacy")(uri "${KIPRJMOD}/lib/ESP32_shield.lib")(options "")(descr ""))
+  (lib (name "Level_shifter_shield")(type "Legacy")(uri "${KIPRJMOD}/lib/Level_shifter_shield.lib")(options "")(descr ""))
+  (lib (name "MCP2551_shield")(type "Legacy")(uri "${KIPRJMOD}/lib/MCP2551_shield.lib")(options "")(descr ""))
+  (lib (name "PSACANBridgeHW_v15-rescue")(type "KiCad")(uri "${KIPRJMOD}/PSACANBridgeHW_v15-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "stepdown_mp1584_shield")(type "KiCad")(uri "${KIPRJMOD}/lib/stepdown_mp1584_shield.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32_c6_shield")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32_c6_shield.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32_c3_supermini_shield")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32_c3_supermini_shield.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32_s3_zero_shield")(type "KiCad")(uri "${KIPRJMOD}/lib/ESP32_s3_zero_shield.kicad_sym")(options "")(descr ""))
+)
