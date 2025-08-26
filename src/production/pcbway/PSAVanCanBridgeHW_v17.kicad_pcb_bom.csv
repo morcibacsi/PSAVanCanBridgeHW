@@ -1,0 +1,15 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Type,LCSC,Comment,Note,JLCPCB Rotation Offset
+BT1,1,Battery_Cell,BatteryHolder_Keystone_3000_1x12mm,,,,smt,Single-cell battery,CR1220; Keystone 3000,,,,
+C10,1,220uF,CP_Radial_D6.3mm_P2.50mm,,,,tht,,,,,,
+"C3, C5, C6",3,100nF,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,CC0603KRX7R9BB104,,smt,,,C14663,,,
+C7,1,100uF,CP_Radial_D6.3mm_P2.50mm,,,,tht,,,,,,
+D2,1,SS34,D_SMA,,SS34,,smt,,,C7420365,,,
+J2,1,Conn_01x08_Pin,JST_EH_S8B-EH_1x08_P2.50mm_Horizontal,,,,tht,,,,,,
+J3,1,Conn_01x02_Pin,PinHeader_1x02_P2.54mm_Vertical,,,,tht,,,,,,
+L1,1,47uh,L_12x12mm_H8mm,,CDRH127NP-470MC,,smt,,,C167265,,,
+"R1, R2",2,4.7K,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,0603WAF4701T5E,,smt,,,C23162,,,
+"R10, R7",2,120,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,0603WAF1200T5E,,smt,,,C22787,,,
+U2,1,DS3231M,SOIC-16W_7.5x10.3mm_P1.27mm,,,,smt,,,C107410,,,-90
+"U4, U5",2,TJA1042T-3,SOIC-8_3.9x4.9mm_P1.27mm,,TJA1042T/3/1J,,smt,,,C132227,,,0
+U6,1,DS3231MZ,SOIC-8_3.9x4.9mm_P1.27mm,,DS3231MZ+TRL,,smt,"±5ppm, I2C Real-Time Clock SOIC-8",,C107410,,,
+U7,1,LM2596S-5,TO-263-5_TabPin3,,LM2596S-5.0(UMW),,smt,,,C347421,,,180

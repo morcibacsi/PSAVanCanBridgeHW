@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC,Quantity
+DS3231M,"U2",SOIC-16W_7.5x10.3mm_P1.27mm,C37663,2
+DS3231MZ,"U6",SOIC-8_3.9x4.9mm_P1.27mm,C107410,2
+TJA1042T-3,"U4,U5",SOIC-8_3.9x4.9mm_P1.27mm,C132227,2
+100nF,"C3,C5,C6",C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C14663,3
+47uh,L1,L_12x12mm_H8mm,C167265,1
+120,"R10,R7",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C22787,2
+4.7K,"R1,R2",R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C23162,2
+LM2596S-5,U7,TO-263-5_TabPin3,C347421,1
+SS34,D2,D_SMA,C7420365,1
+Conn_01x02_Pin,J3,PinHeader_1x02_P2.54mm_Vertical,,1
+Battery_Cell,BT1,BatteryHolder_Keystone_3000_1x12mm,,1
+220uF,C10,CP_Radial_D6.3mm_P2.50mm,,1
+100uF,C7,CP_Radial_D6.3mm_P2.50mm,,1
+Conn_01x08_Pin,J2,JST_EH_S8B-EH_1x08_P2.50mm_Horizontal,,1

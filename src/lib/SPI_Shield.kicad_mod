@@ -1,0 +1,44 @@
+(footprint "SPI_Shield" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp db69f856-a4ef-4ac2-91dd-69a55738f646)
+  )
+  (fp_text value "SPI_Shield" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 13cda417-9d13-4fac-a18b-d6f8d89b4db2)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp dd65f1f8-fb50-4f37-8d17-623d4feb92d1)
+  )
+  (fp_rect (start -11.3157 -6.2992) (end 11.3665 8.2296)
+    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp c00e8242-da86-4e82-a61b-b11c1c63cce2))
+  (pad "1" smd rect (at -11.3919 -2.8221) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 369c22a3-b45b-4bc7-a29f-d2bf2de794d2))
+  (pad "2" smd rect (at -11.3919 -0.2821) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 41b1215e-bc7c-44d1-b3ba-6227bb8b6b71))
+  (pad "3" smd rect (at -11.3919 2.2579) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 0ea8a367-41ef-4392-b71f-ee0372a44a67))
+  (pad "4" smd rect (at -11.3919 4.7979) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ceb77667-374c-4525-a9b6-1144602ba898))
+  (pad "5" smd rect (at 11.3161 -2.8221) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7dafb4c8-89fb-4f3a-9248-ab037db5cf76))
+  (pad "6" smd rect (at 11.3161 -0.2821) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e6697f1a-534f-4320-99ce-e04cf8002ac4))
+  (pad "7" smd rect (at 11.3161 2.2579) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2cedca91-9071-442f-9d4f-19cc0ab0fa85))
+  (pad "8" smd rect (at 11.3161 4.7979) (size 2 0.9) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ef938f85-abef-4c94-92f3-a3d62d3a8272))
+  (group "" (id 67059d0b-257d-4827-b4c6-29b34323dc26)
+    (members
+      499c9b3a-6c20-4113-8e10-c016d0b1cb18
+      c00e8242-da86-4e82-a61b-b11c1c63cce2
+    )
+  )
+  (group "" (id 499c9b3a-6c20-4113-8e10-c016d0b1cb18)
+    (members
+      0ea8a367-41ef-4392-b71f-ee0372a44a67
+      2cedca91-9071-442f-9d4f-19cc0ab0fa85
+      369c22a3-b45b-4bc7-a29f-d2bf2de794d2
+      41b1215e-bc7c-44d1-b3ba-6227bb8b6b71
+      7dafb4c8-89fb-4f3a-9248-ab037db5cf76
+      ceb77667-374c-4525-a9b6-1144602ba898
+      e6697f1a-534f-4320-99ce-e04cf8002ac4
+      ef938f85-abef-4c94-92f3-a3d62d3a8272
+    )
+  )
+)
