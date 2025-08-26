@@ -20,11 +20,13 @@ Starting from Rev 1.5, both software projects can use the same board. From Rev 1
 - [Rev 1.4][version_14]
 - [Rev 1.5][version_15]
 - [Rev 1.6][version_16]
+- [Rev 1.7][version_17]
 
 [version_10]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.0
 [version_11]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.1
 [version_14]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.4
 [version_15]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.5
 [version_16]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.6
+[version_17]: https://github.com/morcibacsi/PSAVanCanBridgeHW/tree/v1.7
 [psavancanbridge]: https://github.com/morcibacsi/PSAVanCanBridge
 [psacanbridge]: https://github.com/morcibacsi/PSACANBridge
