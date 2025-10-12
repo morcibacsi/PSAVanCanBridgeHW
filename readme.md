@@ -15,9 +15,9 @@ It won't damage the board or your car, it just won't work if you don't swap the 
 
 To have the flexibility to use either a MCP2515 or a TSS463 I designed a small custom PCB which can be manufactured with castellated holes and can be soldered to the back of this board. This is how it looks like. The design files for this PCB can be found on its own [repository][vancanspishield].
 
-![spi_shield_mcp2515.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/spi_shield_mcp2515.jpg)
+![spi_shield_mcp2515.jpg](./images/spi_shield_mcp2515.jpg)
 
-![spi_shield_tss463.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/spi_shield_tss463.jpg)
+![spi_shield_tss463.jpg](./images/spi_shield_tss463.jpg)
 
 #### VAN-CAN bridge
 
@@ -38,23 +38,25 @@ You need to hold the BOOT button and press the RESET button to enter programming
 
 💡 **Make sure you don't connect 5V and 12V at the same time to the board**
 
-![usb_ttl_ftdi.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/usb_ttl_ftdi.jpg)
+![usb_ttl_ftdi.jpg](./images/usb_ttl_ftdi.jpg)
+
+![usb_ttl_ftdi_board_connection.jpg](./images/usb_ttl_ftdi_board_connection.jpg)
 
 ### Schema
 
-![schema.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/schema.jpg)
+![schema.jpg](./images/schema.jpg)
 
 ### PCB
 
-![kicad_front.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/kicad_front.jpg)
+![kicad_front.jpg](./images/kicad_front.jpg)
 
-![kicad_back.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/kicad_back.jpg)
+![kicad_back.jpg](./images/kicad_back.jpg)
 
-![photo_front.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/photo_front.jpg)
+![photo_front.jpg](./images/photo_front.jpg)
 
-![photo_back.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/photo_back.jpg)
+![photo_back.jpg](./images/photo_back.jpg)
 
-![photo_enclosure.jpg](https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/photo_enclosure.jpg)
+![photo_enclosure.jpg](./images/photo_enclosure.jpg)
 
 ### Assembly
 
@@ -62,11 +64,11 @@ The board was designed to be as compact as possible, so I suggest to send the ma
 
 I bought a [DS3231 real time clock module for Raspberry Pi][DS3231] and disassembled that and placed its parts to J1 and U2.
 
-<img src="https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/ds3231.jpg" width="200" height="200">
+<img src="./images/ds3231.jpg" width="200" height="200">
 
 The board dimensions were designed to fit a [70 x 45 x 18mm case][enclosure].
 
-<img src="https://github.com/morcibacsi/PSAVanCanBridgeHW/blob/v1.5/images/enclosure.jpg" width="200" height="150">
+<img src="./images/enclosure.jpg" width="200" height="150">
 
 ### BOM
 
